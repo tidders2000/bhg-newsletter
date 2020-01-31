@@ -8,7 +8,10 @@ h1{
     font-family: 'Sigmar One', cursive;
 }
 
-
+p{
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+}
     
 .nav-link{
     color:white!important;
