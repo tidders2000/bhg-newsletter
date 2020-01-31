@@ -46,21 +46,26 @@ h1{
  }
 
 .content_main{
-    margin-left: 50px;
-    margin-right: 50px;
+    
     background-color: #2C68B1;
+    
+    
    
 }
 
 .content_image{
     background-color:#67AA42;
     padding:10px;
-   height: 250px;
-   margin:20px;
+    padding-top: 8%;
+   height: 400px;
+  /* margin:20px;*/
    border-radius: 10px;
    text-align: center;
-  
+
    color:white;
+   display:block;
+   margin:auto;
+   margin-bottom: 20px;
     
 }
 
@@ -71,12 +76,18 @@ h1{
 .content_text{
     background-color: white;
     padding:10px;
-    height: 250px;
-    margin:20px;
+    height: 400px;
+   /* margin:20px;*/
      border-radius: 10px;
+      display:block;
+   margin:auto;
+   margin-bottom: 20px;
+    
 }
 
-
+.fb{
+    padding:10px;
+}
 .title{
     text-align: center;
     padding:50px;
@@ -90,7 +101,7 @@ h1{
     height: 250px;
     width:100%!important;
     
-     margin:20px;
+     
     
 }
 
@@ -137,4 +148,12 @@ footer{
 
 .card-title{
   color:#67AA42!important;
+}
+
+@media (max-width: 576px) {
+    
+     .centered h1{
+     font-size: 40px;
+ }
+ 
 }
