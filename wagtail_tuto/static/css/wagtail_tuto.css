@@ -14,7 +14,7 @@ p {
 }
 
 .nav-link {
-    color: white!important;
+    color: white !important;
     font-size: 10px;
 }
 
@@ -97,7 +97,7 @@ p {
     background-color: white;
     padding: 10px;
     height: 250px;
-    width: 100%!important;
+    width: 100% !important;
     margin-bottom: 120px;
 }
 
@@ -138,11 +138,11 @@ footer {
 }
 
 .card {
-    border: none!important;
+    border: none !important;
 }
 
 .card-title {
-    color: #67AA42!important;
+    color: #67AA42 !important;
 }
 
 @media (max-width: 576px) {
